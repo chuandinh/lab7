@@ -11,12 +11,7 @@ public interface AddressBook {
    */
    void load(String sourceName);
 
-   /** 
-       Look up an item.
-       @param name the name of the person to look up
-       @param key the name of the item to look up 
-       @return the item value or null if not found
-   */
+
    String get(String name, String key);
 
    /** 
